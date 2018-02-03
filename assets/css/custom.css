@@ -1,0 +1,73 @@
+/******FLECHA QUE REBOTA******/
+a.bounce { color: white; text-decoration: none; }  
+
+a.bounce:hover { color: #FBB03B; }
+
+p.bounce {
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+p.bounce:hover { color: #FBB03B; }
+
+.arrow_bounce {
+    text-align: center;
+    margin: 8% 0;
+}
+.bounce_ani {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.darkfont {
+    color: black!important;
+}
+
+.backgroundjassa1{
+    background-image:url(../img/bg1.jpg);
+    background-size: cover;
+}
+
+.backgroundjassa2{
+    background-image:url(../img/bg2.jpg);
+    background-size: cover;
+}
+
+.fitimg{
+    width: 100%;
+}
+
+.logofooter{
+    width: 15%;
+}
+
+.pushbottom{
+    margin-bottom: 16px;
+}
+
+.corpbg {
+    background-image:url(../img/corp.jpg);
+    background-size: cover;
+}
+
+.bg2 {
+    background-image:url(../img/bg2.jpg);
+    background-size: cover;
+}
+
+.showcontrols{
+    height: 50px;
+}

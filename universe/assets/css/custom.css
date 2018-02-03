@@ -1,0 +1,95 @@
+.table_selected td{ 
+    background-color: #426363!important;
+    color: white!important;
+}
+label.radiolabel {
+    display: block; 
+    border: 1px solid #f00;
+    min-height: 100%; /* for the latest browsers which support min-height */
+    height: auto !important; /* for newer IE versions */
+    height: 100%; /* the only height-related attribute that IE6 does not ignore  */
+}
+.radiotext {
+   
+}
+#customers2 td { 
+    height: 20px; 
+}
+#customers2 td > div { 
+    width: 100%; 
+    height: 100%; 
+    overflow:hidden; 
+}
+.ui-autocomplete {
+    z-index: 1000!important;
+}
+.verorden_input {
+    margin-top: 15px;
+}
+
+.font-x2 {
+    font-size: 20px;
+}
+
+.page-container.page-navigation-top-fixed .x-navigation.x-navigation-horizontal {
+    position: absolute;
+    padding-right: 0px;
+}
+
+@media only screen and (max-width: 1024px){
+    .page-container.page-navigation-top-fixed .x-navigation.x-navigation-horizontal {
+        position: inherit;
+    }
+}
+
+.xn-title {
+    color: white!important;
+}
+
+
+.pushbottom {
+    margin-bottom: 16px;
+}
+
+.deletetimes {
+    font-size: -webkit-xxx-large!important;
+    margin-left: 8px;
+    color: firebrick;
+}
+
+.pushtop {
+    margin-top: 16px;
+}
+
+.pushtop32 {
+    margin-top: 32px;
+}
+
+.noborder {
+    border: 0px!important;
+}
+
+.pushleft {
+    margin-left: 16px;
+}
+
+.hidethis{
+    display: none;
+}
+
+.hidethis2{
+    display: none;
+}
+
+.width80{
+    width: 50%!important;
+}
+
+.notificactionbox {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999999;
+    width: 400px;
+    display: none
+}

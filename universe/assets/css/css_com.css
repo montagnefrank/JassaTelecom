@@ -1,0 +1,141 @@
+.both{ font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+.both h4{ margin:0px; font-size:14px;}
+
+.both{ float:left; margin:0 15px 0 0; padding:0px;}
+
+
+
+#Error{
+
+	background-image:url(../imagen/no.jpg);
+
+	background-repeat:no-repeat;
+
+	background-position:left; 
+
+	color:#FF0000; 
+
+	padding-left:33px; 
+
+	height:19px; 
+
+	padding-top:6px;
+
+	padding-right:10px;
+
+	}
+
+#Success{
+
+	background-image:url(../imagen/yes.jpg);
+
+	background-repeat:no-repeat;
+
+	background-position:left; 
+
+	color:#669933; 
+
+	padding-left:33px; 
+
+	height:19px; 
+
+	padding-top:6px;
+
+	padding-right:10px;
+
+	}
+
+
+
+#customForm input{
+
+	width: 220px;
+
+	padding: 3px;
+
+	float:left;
+
+	margin-bottom:10px;
+
+	height:20px;
+
+	color: #000000;
+
+	font-size: 12px;
+
+	border: 1px solid #cecece;
+
+}
+
+
+
+#customForm label{
+
+	display: block;
+
+	color:#000000;
+
+	/*float:left;*/
+
+	width:140px;
+
+	font-size:12px;
+
+	margin-bottom:6px;
+
+}
+
+
+
+#customForm div{
+
+	margin-left: 10px;
+
+	font-size: 11px;
+
+	float:left;
+
+}
+
+#customForm div span{
+
+	margin-left: 10px;
+
+	color: #000000;
+
+	font-size: 11px;
+
+	float:left;
+
+}
+
+#send {
+background-color: #CECECE;
+    border: 1px solid gray;
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 5px 3px 3px;
+    text-align: center;
+    width: 220px;
+}
+
+.texto_in{
+background-repeat:no-repeat;
+color:#069;
+font-size:24px;
+font-family:fantasy ;
+alignment-adjust:central;
+
+
+
+}
+
+/* CSS Document */
+
+
+

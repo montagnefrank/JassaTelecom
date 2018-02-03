@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*estilo de tablas*/
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#000;
+	border-width: 1px;
+	border-color: #000;
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color:#FFF;
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #000;
+}
+table.hovertable tr {
+	background-color:#FFF;
+	padding: 5px;
+	
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #000;
+}
